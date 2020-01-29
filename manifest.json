@@ -1,0 +1,16 @@
+{
+  "name": "User CSS",
+  "version": "1.0.0",
+  "description": "",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://trailhead.salesforce.com/*"],
+      "css": ["trailhead.css"]
+    },
+    {
+      "matches": ["https://mail.google.com/*"],
+      "css": ["gmail.css"]
+    }
+  ]
+}

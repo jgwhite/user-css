@@ -1,0 +1,19 @@
+.unit-content p,
+.unit-content .p,
+.unit-content ol,
+.unit-content ul,
+.body p,
+.body .p,
+.body ol,
+.body ul {
+  max-width: 42rem !important;
+  line-height: 2 !important;
+}
+
+.unit-content ol,
+.unit-content ul,
+.body ol,
+.body ul {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
